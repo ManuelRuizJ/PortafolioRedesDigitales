@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Práctica 1 | Ibero Puebla</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap icons-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+  <body class="d-flex flex-column h-100">
+    <main class="flex-shrink-0">
+      <!-- Navigation-->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container px-5">
+          <a class="navbar-brand">Menu</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="../">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html#resumen"
+                  >Acerca de mi</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html#practicas">Prácticas</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Seccion TITULO de Portafolio-->
+      <header class="bg-primary py-2 mt-6">
+        <div class="container px-5">
+          <div class="row gx-5 align-items-center justify-content-center">
+            <div class="col-lg-8 col-xl-7 col-xxl-6">
+              <div class="my-5 text-center text-xl-start">
+                <h1 class="display-6 fw-bolder text-white mb-2">Practica 1</h1>
+                <h1 class="display-8 fw-bolder text-white mb-2">
+                  Laboratorio de Redes Digitales de Datos
+                </h1>
+                <p id="resumen" class="display-8 fw-normal text-white-50 mb-4">
+                  Departamento de Ciencias e Ingenierías | Universidad
+                  Iberoamericana Puebla, México.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- Seccion TITULO de la Práctica-->
+      <section class="py-3" id="scroll-target">
+        <div class="container px-5 my-2">
+          <!-- Post header-->
+          <header class="mb-4">
+            <!-- Post title-->
+            <h1 class="fw-bolder mb-1">ESP32 Entradas y Salidas</h1>
+
+            <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
+            <!-- Contenedor flexible para los integrantes -->
+            <div class="d-flex align-items-center">
+              <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno) -->
+              <div class="d-flex align-items-center me-3">
+                <img
+                  class="img-fluid rounded-circle"
+                  width="50px"
+                  src="assets/Alonso.jpg"
+                  alt="..."
+                />
+                <div class="ms-2">
+                  <div class="fw-bold">Diego Alonso Diaz Palacios</div>
+                  <div class="text-muted">Ing. Sistemas Computacionales</div>
+                </div>
+              </div>
+              <!-- Fin de etiqueta de alumno -->
+
+              <!-- Agrega más integrantes aquí -->
+              <div class="d-flex align-items-center me-3">
+                <img
+                  class="img-fluid rounded-circle"
+                  width="50px"
+                  src="assets/Jesus.jpg"
+                  alt="..."
+                />
+                <div class="ms-2">
+                  <div class="fw-bold">Jesus Manuel Ruiz Fuentesq</div>
+                  <div class="text-muted">Ing. Sistemas Computacionales</div>
+                </div>
+              </div>
+              <!-- Fin de etiqueta de alumno -->
+            </div>
+
+            <div class="text-muted fst-italic mt-2 mb-2">
+              Fecha: Enero 29, 2025
+            </div>
+            <!-- ETIQUETAS O TOPICOS IMPORTANTES DE LA PRACTICA-->
+            <a class="badge bg-primary text-decoration-none link-light"
+              >ESP32</a
+            >
+            <a class="badge bg-primary text-decoration-none link-light"
+              >Redes</a
+            >
+            <a class="badge bg-primary text-decoration-none link-light"
+              >Componentes</a
+            >
+          </header>
+        </div>
+      </section>
+
+      <!-- Seccion de CONTENIDO de la Práctica-->
+      <section>
+        <div class="container px-5">
+          <figure class="mb-4">
+            <img
+              class="img-fluid rounded"
+              width="800px"
+              src="img/portada_tarea1.png"
+              alt="..."
+            />
+          </figure>
+          <br />
+
+          <p id="resumen"></p>
+          <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resumen -</h2>
+          <p class="fs-6 mb-4">
+            En esta práctica se explorará el funcionamiento de las entradas y
+            salidas digitales utilizando el módulo NodeMCU ESP32 o ESP8266. A
+            través de diferentes objetivos prácticos, se aprenderá cómo encender
+            y apagar un LED mediante programación, el uso de botones para
+            controlar el encendido y apagado de LEDs, así como la implementación
+            de condiciones lógicas para estos controles. Además, se utilizarán
+            herramientas como el simulador Wokwi y el IDE de Arduino para
+            desarrollar los programas y simular el funcionamiento de los
+            circuitos.
+          </p>
+          <br />
+
+          <p id="intro"></p>
+          <h2 class="fw-bolder mb-4 mt-5 fs-5">- Introducción -</h2>
+          <p class="fs-6 mb-4">
+            El ESP32 es un microcontrolador de bajo costo y alto rendimiento que
+            se utiliza en una amplia gama de proyectos de IoT (Internet of
+            Things). Este módulo permite trabajar con entradas y salidas
+            digitales, entre otras capacidades. En esta práctica, se utilizará
+            el ESP32 para controlar LEDs a través de entradas de botones,
+            demostrando cómo interactuar con los pines GPIO del dispositivo.
+            Esta actividad es esencial para comprender el uso básico de las
+            entradas y salidas digitales y su aplicación en proyectos más
+            complejos.
+          </p>
+          <br />
+
+          <p id="materiales"></p>
+          <h2 class="fw-bolder mb-4 mt-5 fs-5">- Materiales -</h2>
+          <p class="fs-6 mb-4">
+            - Node MCU ESP8266 o ESP32 <br />
+            - LED, resistencia de 220 Ohms<br />
+            - 4 Botones y 4 resistencias de 1Kohm<br />
+            - Protoboard y cables
+          </p>
+          <br />
+
+          <p id="desarrollo"></p>
+          <h2 class="fw-bolder mb-4 mt-5 fs-5">- Desarrollo -</h2>
+          <p class="fs-6 mb-4">
+            1. Configuración del IDE de Arduino: <br />
+            - Se debe instalar el soporte para el ESP32 en el IDE de Arduino
+            siguiendo los tutoriales de configuración proporcionados. <br />
+            - Revisar el pinout del ESP32 para identificar los pines GPIO
+            disponibles.
+            <br /><br />
+            2. Programación de encendido y apagado de un LED: <br />
+            - Se desarrollará un programa simple para encender un LED en un pin
+            digital específico. <br />- Se desarrollará otro programa para
+            apagar el LED. <br /><br />
+            3. Encendido y apagado del LED con retardos:<br />
+            - Se implementará un programa que encienda y apague el LED
+            alternadamente con retardos.
+            <br /><br />
+            4. Control del LED mediante botones:<br />
+            - Se desarrollará un programa que permita encender y apagar el LED
+            mediante la presión de un botón. <br /><br />
+            5. Uso de dos botones con condicional OR:<br />
+            - Se implementará un programa que encienda el LED si se presiona
+            cualquiera de los dos botones.
+            <br /><br />
+            6. Uso de dos botones con condicional AND:<br />
+            - Se desarrollará un programa que encienda el LED solo si ambos
+            botones son presionados simultáneamente.
+          </p>
+          <br />
+
+          <p id="|cion"></p>
+          <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Simulación</h1>
+          <p class="fs-6 mb-4">
+            Se utilizará Wokwi para simular cada uno de los circuitos
+            desarrollados en los objetivos anteriores. En cada simulación se
+            probarán los diferentes programas para asegurarse de que los
+            sistemas funcionan correctamente antes de implementar el hardware
+            real. Se incluirán capturas de pantalla de las simulaciones y videos
+            de las pruebas realizadas.
+          </p>
+          <br /><br />
+          <figure class="mb-4" align="center">
+            <h3>Encendido de un led</h3>
+            <br />
+            <img
+              class="img-fluid rounded"
+              width="80%"
+              src="img/a.png"
+              alt="..."
+            />
+          </figure>
+          <br /><br />
+
+          <figure class="mb-4" align="center">
+            <h3>Apagado de un led</h3>
+            <br />
+            <img
+              class="img-fluid rounded"
+              width="80%"
+              src="img/b.png"
+              alt="..."
+            />
+          </figure>
+          <br /><br />
+
+          <figure class="mb-4" align="center">
+            <h3>Encendido y apagado de un led mediante botones</h3>
+            <br />
+            <img
+              class="img-fluid rounded"
+              width="80%"
+              src="img/d.png"
+              alt="..."
+            />
+          </figure>
+          <br /><br />
+
+          <p id="diseño"></p>
+          <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Diseño</h1>
+          <p class="fs-6 mb-4">
+            El diseño del sistema consta de un NodeMCU ESP32 conectado a un LED
+            y botones que permiten controlar el estado del LED. Cada uno de los
+            botones se conectará a un pin digital del ESP32, y el LED se
+            conectará a otro pin digital. El diseño del circuito se ilustrará
+            mediante un diagrama esquemático que se incluirá en el reporte.
+          </p>
+
+          <p id="construccion"></p>
+          <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Construcción</h1>
+          <p class="fs-6 mb-4">
+            El circuito se construirá en una protoboard, conectando el ESP32 a
+            los componentes (LED y botones) utilizando cables adecuados. Las
+            conexiones se realizarán siguiendo el diagrama de diseño. Una vez
+            construido el circuito, se cargarán los programas desarrollados en
+            el IDE de Arduino para probar su funcionamiento.
+          </p>
+
+          <p id="resultados"></p>
+          <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resultados -</h2>
+          <p class="fs-6 mb-4">
+            Los resultados obtenidos permitirán observar cómo los diferentes
+            programas controlan el LED mediante las entradas digitales. En la
+            simulación, se verificarán los siguientes comportamientos:<br />
+            - Encendido y apagado del LED según los programas. <br />
+            - Control del LED con los botones utilizando las condiciones OR y
+            AND.
+          </p>
+          <figure class="mb-4" align="center">
+            <video width="80%" controls>
+              <source src="video/Robot.mp4" type="video/mp4" />
+            </video>
+          </figure>
+
+          <p id="conclusiones"></p>
+          <h2 class="fw-bolder mb-4 mt-5 fs-5">- Conclusiones -</h2>
+          <p class="fs-6 mb-4">
+            Con esta práctica, se ha logrado entender el funcionamiento básico
+            de las entradas y salidas digitales del ESP32, utilizando el módulo
+            para controlar un LED a través de botones y condiciones lógicas. Los
+            programas fueron probados tanto en simulación como en hardware real,
+            demostrando la efectividad de los métodos utilizados. Este
+            conocimiento es fundamental para el desarrollo de proyectos más
+            complejos basados en el ESP32.
+          </p>
+
+          <p id="referencias"></p>
+          <h2 class="fw-bolder mb-4 mt-5 fs-5">- Referencias -</h2>
+          <p class="fs-6 mb-4">
+            Gomez, S. B., & Herrera, H. J. R. (2022). Sistema IoT basado en
+            ESP32 para el control y monitoreo de cultivos en invernadero con
+            enfoque de agricultura 4.0. Ingeniería investiga, 4.
+          </p>
+          <p class="fs-6 mb-4">
+            Madakam, S., Ramaswamy, R., & Tripathi, S. (2015). Internet of
+            Things (IoT): A literature review. Journal of Computer and
+            Communications, 3(5), 164-173.
+          </p>
+          <p class="fs-6 mb-4">
+            Gokhale, P., Bhat, O., & Bhat, S. (2018). Introduction to IOT.
+            International Advanced Research Journal in Science, Engineering and
+            Technology, 5(1), 41-44.
+          </p>
+
+          <p id="descargables"></p>
+          <h2 class="fw-bolder mb-4 mt-5 fs-5">- Descargables -</h2>
+          <p class="fs-6 mb-4">
+            Descargar documento PDF:
+            <a href="files/Documento.pdf">documento.pdf</a>
+          </p>
+          <p class="fs-6 mb-4">
+            Descargar codigo Arduino:
+            <a href="files/Ejemplo_arduino_bluetooth.ino">codigo.ino</a>
+          </p>
+          <p class="fs-6 mb-4">
+            Descargar Archivo 3d .STL:
+            <a href="files/Pieza_3D.STL">pieza.stl</a>
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer-->
+    <footer class="bg-dark py-4 mt-auto">
+      <div class="container px-5">
+        <div
+          class="row align-items-center justify-content-between flex-column flex-sm-row"
+        >
+          <div class="col-auto">
+            <div class="small m-0 text-white">
+              Copyright &copy; Ingenierias-iberopuebla.mx 2023
+            </div>
+          </div>
+          <div class="col-auto">
+            <a class="link-light small" href="#!">Privacy</a>
+            <span class="text-white mx-1">&middot;</span>
+            <a class="link-light small" href="#!">Terms</a>
+            <span class="text-white mx-1">&middot;</span>
+            <a class="link-light small" href="#!">Contact</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
