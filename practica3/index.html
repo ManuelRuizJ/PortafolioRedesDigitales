@@ -8,7 +8,7 @@
     />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Práctica 1 | Ibero Puebla</title>
+    <title>Práctica 3 | Ibero Puebla</title>
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <!-- Bootstrap icons-->
@@ -60,7 +60,7 @@
           <div class="row gx-5 align-items-center justify-content-center">
             <div class="col-lg-8 col-xl-7 col-xxl-6">
               <div class="my-5 text-center text-xl-start">
-                <h1 class="display-6 fw-bolder text-white mb-2">Practica 1</h1>
+                <h1 class="display-6 fw-bolder text-white mb-2">Practica 3</h1>
                 <h1 class="display-8 fw-bolder text-white mb-2">
                   Laboratorio de Redes Digitales de Datos
                 </h1>
@@ -117,18 +117,19 @@
             </div>
 
             <div class="text-muted fst-italic mt-2 mb-2">
-              Fecha: Enero 29, 2025
+              Fecha: Febrero 12, 2025
             </div>
             <!-- ETIQUETAS O TOPICOS IMPORTANTES DE LA PRACTICA-->
             <a class="badge bg-primary text-decoration-none link-light"
               >ESP32</a
             >
             <a class="badge bg-primary text-decoration-none link-light"
-              >Redes</a
+              >ThingSpeak</a
             >
             <a class="badge bg-primary text-decoration-none link-light"
-              >Componentes</a
+              >Sensores</a
             >
+            <a class="badge bg-primary text-decoration-none link-light">IoT</a>
           </header>
         </div>
       </section>
@@ -149,40 +150,55 @@
           <p id="resumen"></p>
           <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resumen -</h2>
           <p class="fs-6 mb-4">
-            En esta práctica se explorará el funcionamiento de las entradas y
-            salidas digitales utilizando el módulo NodeMCU ESP32 o ESP8266. A
-            través de diferentes objetivos prácticos, se aprenderá cómo encender
-            y apagar un LED mediante programación, el uso de botones para
-            controlar el encendido y apagado de LEDs, así como la implementación
-            de condiciones lógicas para estos controles. Además, se utilizarán
-            herramientas como el simulador Wokwi y el IDE de Arduino para
-            desarrollar los programas y simular el funcionamiento de los
-            circuitos.
+            En esta práctica, exploraremos la conexión y el uso de la plataforma
+            ThingSpeak con módulos ESP32 y ESP8266. Aprenderemos a configurar
+            ThingSpeak, conectar nuestros ESP a través de WiFi y enviar datos de
+            sensores digitales (botón), analógicos (potenciómetro) e
+            inteligentes (DHT22) a la plataforma para su visualización y
+            monitoreo. Además, integraremos un sensor PIR para crear un tablero
+            público en ThingSpeak que muestre el estado del sensor en tiempo
+            real, demostrando la capacidad de ThingSpeak para aplicaciones de
+            monitoreo remoto e IoT.
           </p>
           <br />
 
           <p id="intro"></p>
           <h2 class="fw-bolder mb-4 mt-5 fs-5">- Introducción -</h2>
           <p class="fs-6 mb-4">
-            El ESP32 es un microcontrolador de bajo costo y alto rendimiento que
-            se utiliza en una amplia gama de proyectos de IoT (Internet of
-            Things). Este módulo permite trabajar con entradas y salidas
-            digitales, entre otras capacidades. En esta práctica, se utilizará
-            el ESP32 para controlar LEDs a través de entradas de botones,
-            demostrando cómo interactuar con los pines GPIO del dispositivo.
-            Esta actividad es esencial para comprender el uso básico de las
-            entradas y salidas digitales y su aplicación en proyectos más
-            complejos.
+            En la era del Internet de las Cosas (IoT), la capacidad de recopilar
+            y analizar datos de sensores de forma remota es fundamental.
+            ThingSpeak, una plataforma de código abierto, nos brinda las
+            herramientas necesarias para lograr precisamente eso. En esta
+            práctica, nos sumergiremos en el mundo de ThingSpeak y aprenderemos
+            a utilizarlo con nuestros ESP32 y ESP8266.<br /><br />
+
+            ThingSpeak nos permite crear "canales" para almacenar datos de
+            sensores en la nube. Luego, podemos visualizar estos datos en tiempo
+            real a través de gráficos y dashboards, lo que facilita el monitoreo
+            y análisis de la información. Además, ThingSpeak ofrece
+            funcionalidades para configurar alertas y desencadenar acciones
+            basadas en los datos recibidos.<br /><br />
+
+            Trabajaremos con diferentes tipos de sensores: digitales, analógicos
+            e inteligentes. Los conectaremos a nuestros ESP32 y ESP8266, que
+            actuarán como intermediarios para enviar los datos a ThingSpeak a
+            través de WiFi.<br /><br />
           </p>
           <br />
 
           <p id="materiales"></p>
           <h2 class="fw-bolder mb-4 mt-5 fs-5">- Materiales -</h2>
           <p class="fs-6 mb-4">
-            - Node MCU ESP8266 o ESP32 <br />
-            - LED, resistencia de 220 Ohms<br />
-            - 4 Botones y 4 resistencias de 1Kohm<br />
-            - Protoboard y cables
+            - NodeMCU ESP8266 o ESP32<br />
+            - LED<br />
+            - Resistencia de 220 Ohms<br />
+            - Botón<br />
+            - Resistencia de 1 Kohm<br />
+            - Potenciómetro<br />
+            - Sensor DHT2<br />
+            - Sensor PIR<br />
+            - Protoboard<br />
+            - Cables<br />
           </p>
           <br />
 
