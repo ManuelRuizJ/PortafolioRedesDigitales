@@ -218,7 +218,6 @@
           </p>
           <br /><br />
           <figure class="mb-4" align="center">
-            <h3>Encendido de un led</h3>
             <br />
             <img
               class="img-fluid rounded"
@@ -230,7 +229,6 @@
           <br /><br />
 
           <figure class="mb-4" align="center">
-            <h3>Apagado de un led</h3>
             <br />
             <img
               class="img-fluid rounded"
@@ -240,14 +238,12 @@
             />
           </figure>
           <br /><br />
-
           <figure class="mb-4" align="center">
-            <h3>Encendido y apagado de un led mediante botones</h3>
             <br />
             <img
               class="img-fluid rounded"
               width="80%"
-              src="img/d.png"
+              src="img/c.png"
               alt="..."
             />
           </figure>
@@ -256,11 +252,12 @@
           <p id="diseño"></p>
           <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Diseño</h1>
           <p class="fs-6 mb-4">
-            El diseño del sistema consta de un NodeMCU ESP32 conectado a un LED
-            y botones que permiten controlar el estado del LED. Cada uno de los
-            botones se conectará a un pin digital del ESP32, y el LED se
-            conectará a otro pin digital. El diseño del circuito se ilustrará
-            mediante un diagrama esquemático que se incluirá en el reporte.
+            El diseño del sistema consta de un NodeMCU ESP32 conectado a LED's y
+            botones que permiten controlar el estado del LED dependiendo de el
+            estado y programacion de el sensor, en este caso el de movimiento,
+            temperatura y humedad y potenciómetro; en cada una de ellas se
+            programara para que el LED se encienda o apague dependiendo de la
+            programacion.
           </p>
 
           <p id="construccion"></p>
@@ -276,29 +273,33 @@
           <p id="resultados"></p>
           <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resultados -</h2>
           <p class="fs-6 mb-4">
-            Los resultados obtenidos permitirán observar cómo los diferentes
-            programas controlan el LED mediante las entradas digitales. En la
-            simulación, se verificarán los siguientes comportamientos:<br />
-            - Encendido y apagado del LED según los programas. <br />
-            - Control del LED con los botones utilizando las condiciones OR y
-            AND.
+            - Los resultados obtenidos permitirán observar cómo los diferentes
+            programas controlan el LED mediante las salidas de los sensores. En
+            la simulación, se verificarán los siguientes comportamientos:<br />
+            - Encendido y apagado del LED según las salidas de los sensores.
+            <br />
+            - Control de los sensores con los led y salidas dependiendo de sus
+            valores de salida.
           </p>
           <figure class="mb-4" align="center">
             <video width="80%" controls>
-              <source src="video/Robot.mp4" type="video/mp4" />
+              <source src="video/1.mp4" type="video/mp4" />
+            </video>
+          </figure>
+          <figure class="mb-4" align="center">
+            <video width="80%" controls>
+              <source src="video/1.mp4" type="video/mp4" />
             </video>
           </figure>
 
           <p id="conclusiones"></p>
           <h2 class="fw-bolder mb-4 mt-5 fs-5">- Conclusiones -</h2>
           <p class="fs-6 mb-4">
-            Con esta práctica, se ha logrado entender el funcionamiento básico
-            de las entradas y salidas digitales del ESP32, utilizando el módulo
-            para controlar un LED a través de botones y condiciones lógicas. Los
-            programas fueron probados tanto en simulación como en hardware real,
-            demostrando la efectividad de los métodos utilizados. Este
-            conocimiento es fundamental para el desarrollo de proyectos más
-            complejos basados en el ESP32.
+            Con esta práctica, se ha logrado entender el funcionamiento de los
+            sensores digitales, analógicos e inteligentes, así como su
+            interacción con el LED a través de los sensores. Los programas
+            fueron probados tanto en simulación como en hardware real,
+            demostrando la efectividad.
           </p>
 
           <p id="referencias"></p>
