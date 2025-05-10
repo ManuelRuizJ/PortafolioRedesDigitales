@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Práctica 6 | Ibero Puebla</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap icons-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+  <body class="d-flex flex-column h-100">
+    <main class="flex-shrink-0">
+      <!-- Navigation-->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container px-5">
+          <a class="navbar-brand">Menu</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="../">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html#resumen"
+                  >Acerca de mi</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html#practicas">Prácticas</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Seccion TITULO de Portafolio-->
+      <header class="bg-primary py-2 mt-6">
+        <div class="container px-5">
+          <div class="row gx-5 align-items-center justify-content-center">
+            <div class="col-lg-8 col-xl-7 col-xxl-6">
+              <div class="my-5 text-center text-xl-start">
+                <h1 class="display-6 fw-bolder text-white mb-2">Practica 6</h1>
+                <h1 class="display-8 fw-bolder text-white mb-2">
+                  Laboratorio de Redes Digitales de Datos
+                </h1>
+                <p id="resumen" class="display-8 fw-normal text-white-50 mb-4">
+                  Departamento de Ciencias e Ingenierías | Universidad
+                  Iberoamericana Puebla, México.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- Seccion TITULO de la Práctica-->
+      <section class="py-3" id="scroll-target">
+        <div class="container px-5 my-2">
+          <!-- Post header-->
+          <header class="mb-4">
+            <!-- Post title-->
+            <h1 class="fw-bolder mb-1">Servidor de Red Local</h1>
+
+            <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
+            <!-- Contenedor flexible para los integrantes -->
+            <div class="d-flex align-items-center">
+              <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno) -->
+              <div class="d-flex align-items-center me-3">
+                <img
+                  class="img-fluid rounded-circle"
+                  width="50px"
+                  src="assets/Alonso.jpg"
+                  alt="..."
+                />
+                <div class="ms-2">
+                  <div class="fw-bold">Diego Alonso Diaz Palacios</div>
+                  <div class="text-muted">Ing. Sistemas Computacionales</div>
+                </div>
+              </div>
+              <!-- Fin de etiqueta de alumno -->
+
+              <!-- Agrega más integrantes aquí -->
+              <div class="d-flex align-items-center me-3">
+                <img
+                  class="img-fluid rounded-circle"
+                  width="50px"
+                  src="assets/Jesus.jpg"
+                  alt="..."
+                />
+                <div class="ms-2">
+                  <div class="fw-bold">Jesus Manuel Ruiz Fuentesq</div>
+                  <div class="text-muted">Ing. Sistemas Computacionales</div>
+                </div>
+              </div>
+              <!-- Fin de etiqueta de alumno -->
+            </div>
+
+            <div class="text-muted fst-italic mt-2 mb-2">
+              Fecha: Febrero 12, 2025
+            </div>
+            <!-- ETIQUETAS O TOPICOS IMPORTANTES DE LA PRACTICA-->
+            <a class="badge bg-primary text-decoration-none link-light"
+              >XAMPP</a
+            >
+            <a class="badge bg-primary text-decoration-none link-light"
+              >Servidor</a
+            >
+            <a class="badge bg-primary text-decoration-none link-light">Web</a>
+          </header>
+        </div>
+      </section>
+
+      <!-- Seccion de CONTENIDO de la Práctica-->
+      <section>
+        <div class="container px-5">
+          <figure class="mb-4">
+            <img
+              class="img-fluid rounded"
+              width="800px"
+              src="img/portada_tarea1.png"
+              alt="..."
+            />
+          </figure>
+          <br />
+
+          <p id="resumen"></p>
+          <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resumen -</h2>
+          <p class="fs-6 mb-4">
+            En esta práctica, se explorarán los pasos necesarios para configurar
+            una red local básica y habilitar el acceso a los recursos de un
+            equipo dentro de ella. El objetivo principal es instalar y
+            configurar un servidor web local utilizando XAMPP, habilitar el
+            acceso a través del firewall, identificar la dirección IP del
+            servidor en una red dada y, finalmente, comprobar el acceso al sitio
+            web alojado desde múltiples dispositivos conectados a la misma red
+            local.
+          </p>
+          <br />
+
+          <p id="intro"></p>
+          <h2 class="fw-bolder mb-4 mt-5 fs-5">- Introducción -</h2>
+          <p class="fs-6 mb-4">
+            Comprender cómo configurar una red local y compartir recursos es
+            fundamental en el ámbito de las redes de computadoras. Esta práctica
+            se enfoca en la creación de un entorno de servidor web local y la
+            verificación de su accesibilidad dentro de una misma red. Al
+            utilizar XAMPP, una distribución de Apache que facilita la
+            configuración de un servidor web local, se aprenderá a desplegar un
+            sitio web básico. Posteriormente, se abordarán los aspectos de
+            configuración del firewall para permitir el tráfico entrante al
+            servidor y la identificación de la dirección IP, crucial para el
+            acceso desde otros dispositivos en la red. Finalmente, la
+            comprobación del acceso desde diferentes puntos permitirá validar la
+            correcta configuración de la red local y el servidor web.
+          </p>
+          <br />
+
+          <p id="materiales"></p>
+          <h2 class="fw-bolder mb-4 mt-5 fs-5">- Materiales -</h2>
+          <p class="fs-6 mb-4">
+            - Una computadora personal con sistema operativo compatible con
+            XAMPP. <br /><br />
+            - Dispositivos adicionales con capacidad de conexión a la misma red.
+            <br /><br />
+            - Software XAMPP.<br /><br />
+            - Un navegador web instalado en todos los dispositivos.<br /><br />
+          </p>
+          <br />
+
+          <p id="desarrollo"></p>
+          <h2 class="fw-bolder mb-4 mt-5 fs-5">- Desarrollo -</h2>
+          <p class="fs-6 mb-4">
+            1. Instalación y Configuración de XAMPP:<br />
+            - Descargar XAMPP desde el sitio web oficial:
+            https://www.apachefriends.org/es/index.html <br />
+            - Ejecutar el instalador y seguir los pasos para completar la
+            instalación en la computadora designada como servidor local. <br />
+            - Iniciar el Panel de Control de XAMPP y habilitar los servicios de
+            Apache. Verificar que el servicio se inicie correctamente (los
+            módulos Apache deben mostrar un estado "Running" o similar).<br />
+            - Montar un sitio web de prueba en el directorio `htdocs` dentro de
+            la carpeta de instalación de XAMPP. Puede ser un archivo
+            "index.html" simple con algún contenido básico.
+            <br /><br />
+
+            2. Habilitación del Acceso al Puerto 80 en el Firewall:<br />
+            - Acceder a la configuración del Firewall de Windows (o el firewall
+            utilizado en el sistema operativo del servidor). <br />
+            - Crear una regla de entrada que permita las conexiones al puerto
+            TCP 80. Este es el puerto predeterminado para el tráfico HTTP (web).
+            Asegurarse de que esta regla esté habilitada para la interfaz de red
+            activa.
+
+            <br /><br />
+
+            3. Identificación de la Dirección IP del Servidor Local:<br />
+            - Conectar la computadora servidor a la red de internet (IBERO o red
+            personal). <br />
+            - Abrir la línea de comandos (en Windows) o la terminal (en macOS o
+            Linux). <br />
+            - Ejecutar el comando "ipconfig" (en Windows) o "ifconfig" (en macOS
+            o Linux) para identificar la dirección IP asignada a la interfaz de
+            red activa. Anotar esta dirección IP (generalmente en el formato
+            IPv4).
+            <br /><br />
+
+            4. Comprobación del Acceso al Sitio Web desde Dispositivos en
+            Red:<br />
+            - Asegurarse de que los tres dispositivos adicionales estén
+            conectados a la misma red local que la computadora servidor. <br />
+            - En el navegador web de cada uno de los tres dispositivos, ingresar
+            la dirección IP del servidor local obtenida en el paso anterior en
+            la barra de direcciones (ejemplo: "http://192.168.1.100"). <br />
+            - Verificar que el sitio web montado en el servidor local se
+            visualice correctamente en los navegadores de los tres dispositivos.
+            <br />
+            - Documentar si el acceso fue exitoso en cada uno de los
+            dispositivos.
+          </p>
+          <br /><br /><br /><br />
+
+          <p id="resultados"></p>
+          <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resultados -</h2>
+          <p class="fs-6 mb-4">
+            Los resultados obtenidos permitirán verificar la correcta
+            configuración del servidor web local y la accesibilidad al sitio web
+            montado desde diferentes dispositivos en la misma red. <br />
+            Se registrarán los siguientes comportamientos: <br />
+            - Estado de los servicios Apache en XAMPP. <br />
+            - Configuración de la regla de entrada del puerto 80 en el
+            firewall.<br />
+            - Dirección IP asignada al equipo servidor en la red. - Estado del
+            acceso al sitio web desde cada uno de los tres dispositivos.
+          </p>
+          <br />
+          <figure class="mb-4" align="center">
+            <h3>Panel de control</h3>
+            <br />
+            <img
+              class="img-fluid rounded"
+              width="80%"
+              src="img/a.png"
+              alt="..."
+            />
+          </figure>
+          <br />
+          <figure class="mb-4" align="center">
+            <h3>Panel de control con servicio de Apache</h3>
+            <br />
+            <img
+              class="img-fluid rounded"
+              width="80%"
+              src="img/b.png"
+              alt="..."
+            />
+          </figure>
+          <br />
+          <figure class="mb-4" align="center">
+            <h3>Carpeta htdocs, donde se pondrn archivos</h3>
+            <br />
+            <img
+              class="img-fluid rounded"
+              width="80%"
+              src="img/c.png"
+              alt="..."
+            />
+          </figure>
+          <br />
+          <figure class="mb-4" align="center">
+            <h3>Configuracion ipconfig para ver la direccion IPv4</h3>
+            <br />
+            <img
+              class="img-fluid rounded"
+              width="80%"
+              src="img/e.png"
+              alt="..."
+            />
+          </figure>
+          <br />
+          <figure class="mb-4" align="center">
+            <h3>Direccion IPv4 en el navegador con el servidor en linea</h3>
+            <br />
+            <img
+              class="img-fluid rounded"
+              width="80%"
+              src="img/f.png"
+              alt="..."
+            />
+          </figure>
+          <br />
+          <figure class="mb-4" align="center">
+            <h3>Pagina corriendo en el serivdor en e dispositivo local</h3>
+            <br />
+            <img
+              class="img-fluid rounded"
+              width="80%"
+              src="img/g.png"
+              alt="..."
+            />
+          </figure>
+          <br />
+          <figure class="mb-4" align="center">
+            <h3>Direccion URL comprobando la direccion al servidor</h3>
+            <br />
+            <img
+              class="img-fluid rounded"
+              width="80%"
+              src="img/h.png"
+              alt="..."
+            />
+          </figure>
+          <br />
+          <figure class="mb-4" align="center">
+            <h3>Pagina corriendo en el serivdor en e dispositivo 2</h3>
+            <br />
+            <img
+              class="img-fluid rounded"
+              width="80%"
+              src="img/i.png"
+              alt="..."
+            />
+          </figure>
+          <br />
+          <figure class="mb-4" align="center">
+            <h3>Pagina corriendo en el serivdor en e dispositivo local</h3>
+            <br />
+            <img
+              class="img-fluid rounded"
+              width="80%"
+              src="img/j.png"
+              alt="..."
+            />
+          </figure>
+          <br />
+
+          <br /><br />
+
+          <p id="conclusiones"></p>
+          <h2 class="fw-bolder mb-4 mt-5 fs-5">- Conclusiones -</h2>
+          <p class="fs-6 mb-4">
+            CCon esta práctica, se ha logrado conocer e implementar los pasos
+            fundamentales para configurar un servidor web local utilizando XAMPP
+            y habilitar el acceso a sus recursos dentro de una red local. Se
+            comprendió la importancia de configurar el firewall para permitir el
+            tráfico de red necesario y la utilidad de la dirección IP para la
+            comunicación entre dispositivos en una red. La comprobación del
+            acceso desde múltiples dispositivos validó la correcta configuración
+            del entorno de red y del servidor web, proporcionando una base para
+            entender cómo se comparten recursos en redes de computadoras.
+          </p>
+
+          <p id="referencias"></p>
+          <h2 class="fw-bolder mb-4 mt-5 fs-5">- Referencias -</h2>
+          <p class="fs-6 mb-4">
+            Apache Friends. (s.f.). XAMPP. Recuperado de
+            https://www.apachefriends.org/es/index.html
+          </p>
+          <p class="fs-6 mb-4">
+            Transmisión de datos y redes de comunicaciones (4a ed.).
+            McGraw-Hill.
+          </p>
+          <p class="fs-6 mb-4">
+            Gokhale, P., Bhat, O., & Bhat, S. (2018). Introduction to IOT.
+            International Advanced Research Journal in Science, Engineering and
+            Technology, 5(1), 41-44.
+          </p>
+
+          <p id="descargables"></p>
+          <h2 class="fw-bolder mb-4 mt-5 fs-5">- Descargables -</h2>
+          <p class="fs-6 mb-4">
+            Descargar documento PDF:
+            <a href="files/Documento.pdf">documento.pdf</a>
+          </p>
+          <p class="fs-6 mb-4">
+            Descargar codigo Arduino:
+            <a href="files/Ejemplo_arduino_bluetooth.ino">codigo.ino</a>
+          </p>
+          <p class="fs-6 mb-4">
+            Descargar Archivo 3d .STL:
+            <a href="files/Pieza_3D.STL">pieza.stl</a>
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer-->
+    <footer class="bg-dark py-4 mt-auto">
+      <div class="container px-5">
+        <div
+          class="row align-items-center justify-content-between flex-column flex-sm-row"
+        >
+          <div class="col-auto">
+            <div class="small m-0 text-white">
+              Copyright &copy; Ingenierias-iberopuebla.mx 2023
+            </div>
+          </div>
+          <div class="col-auto">
+            <a class="link-light small" href="#!">Privacy</a>
+            <span class="text-white mx-1">&middot;</span>
+            <a class="link-light small" href="#!">Terms</a>
+            <span class="text-white mx-1">&middot;</span>
+            <a class="link-light small" href="#!">Contact</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
