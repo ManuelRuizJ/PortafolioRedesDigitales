@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Práctica 7 | Ibero Puebla</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap icons-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+  <body class="d-flex flex-column h-100">
+    <main class="flex-shrink-0">
+      <!-- Navigation-->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container px-5">
+          <a class="navbar-brand">Menu</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="../">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html#resumen"
+                  >Acerca de mi</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html#practicas">Prácticas</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Seccion TITULO de Portafolio-->
+      <header class="bg-primary py-2 mt-6">
+        <div class="container px-5">
+          <div class="row gx-5 align-items-center justify-content-center">
+            <div class="col-lg-8 col-xl-7 col-xxl-6">
+              <div class="my-5 text-center text-xl-start">
+                <h1 class="display-6 fw-bolder text-white mb-2">Practica 7</h1>
+                <h1 class="display-8 fw-bolder text-white mb-2">
+                  Laboratorio de Redes Digitales de Datos
+                </h1>
+                <p id="resumen" class="display-8 fw-normal text-white-50 mb-4">
+                  Departamento de Ciencias e Ingenierías | Universidad
+                  Iberoamericana Puebla, México.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- Seccion TITULO de la Práctica-->
+      <section class="py-3" id="scroll-target">
+        <div class="container px-5 my-2">
+          <!-- Post header-->
+          <header class="mb-4">
+            <!-- Post title-->
+            <h1 class="fw-bolder mb-1">Redes Locales</h1>
+
+            <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
+            <!-- Contenedor flexible para los integrantes -->
+            <div class="d-flex align-items-center">
+              <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno) -->
+              <div class="d-flex align-items-center me-3">
+                <img
+                  class="img-fluid rounded-circle"
+                  width="50px"
+                  src="assets/Alonso.jpg"
+                  alt="..."
+                />
+                <div class="ms-2">
+                  <div class="fw-bold">Diego Alonso Diaz Palacios</div>
+                  <div class="text-muted">Ing. Sistemas Computacionales</div>
+                </div>
+              </div>
+              <!-- Fin de etiqueta de alumno -->
+
+              <!-- Agrega más integrantes aquí -->
+              <div class="d-flex align-items-center me-3">
+                <img
+                  class="img-fluid rounded-circle"
+                  width="50px"
+                  src="assets/Jesus.jpg"
+                  alt="..."
+                />
+                <div class="ms-2">
+                  <div class="fw-bold">Jesus Manuel Ruiz Fuentesq</div>
+                  <div class="text-muted">Ing. Sistemas Computacionales</div>
+                </div>
+              </div>
+              <!-- Fin de etiqueta de alumno -->
+            </div>
+
+            <div class="text-muted fst-italic mt-2 mb-2">
+              Fecha: Febrero 12, 2025
+            </div>
+            <!-- ETIQUETAS O TOPICOS IMPORTANTES DE LA PRACTICA-->
+            <a class="badge bg-primary text-decoration-none link-light"
+              >Redes</a
+            >
+            <a class="badge bg-primary text-decoration-none link-light">LAN</a>
+            <a class="badge bg-primary text-decoration-none link-light"
+              >Switch</a
+            >
+          </header>
+        </div>
+      </section>
+
+      <!-- Seccion de CONTENIDO de la Práctica-->
+      <section>
+        <div class="container px-5">
+          <figure class="mb-4">
+            <img
+              class="img-fluid rounded"
+              width="800px"
+              src="img/portada_tarea1.png"
+              alt="..."
+            />
+          </figure>
+          <br />
+
+          <p id="resumen"></p>
+          <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resumen -</h2>
+          <p class="fs-6 mb-4">
+            En esta práctica, se explorará la implementación y el funcionamiento
+            de redes de área local (LAN) utilizando tanto switches como routers.
+            El objetivo principal es comprender las diferencias fundamentales en
+            el funcionamiento de estos dispositivos y su aplicación en la
+            creación de redes. Se construirán dos redes separadas, una
+            utilizando un switch y otra utilizando un router, ambas conectando
+            un mínimo de tres computadoras y un servidor web con asignación
+            automática de direcciones IP. Se verificará la conectividad dentro
+            de cada red mediante el comando "ping" y el acceso al servidor web.
+            Finalmente, se unirán ambas redes para comprobar el intercambio de
+            archivos entre los dispositivos conectados a diferentes segmentos de
+            la red.
+          </p>
+          <br />
+
+          <p id="intro"></p>
+          <h2 class="fw-bolder mb-4 mt-5 fs-5">- Introducción -</h2>
+          <p class="fs-6 mb-4">
+            Los switches y los routers son dispositivos esenciales en la
+            infraestructura de redes, aunque cumplen funciones distintas. Un
+            switch opera en la capa de enlace de datos (Capa 2 del modelo OSI) y
+            se utiliza principalmente para conectar dispositivos dentro de la
+            misma red o segmento de red, facilitando la comunicación a través de
+            direcciones MAC. Por otro lado, un router opera en la capa de red
+            (Capa 3 del modelo OSI) y es fundamental para interconectar
+            diferentes redes o segmentos de red, tomando decisiones de
+            enrutamiento basadas en direcciones IP.
+          </p>
+          <br />
+
+          <p id="materiales"></p>
+          <h2 class="fw-bolder mb-4 mt-5 fs-5">- Materiales -</h2>
+          <p class="fs-6 mb-4">
+            - 6 computadoras personales con tarjetas de red Ethernet y/o Wi-Fi.
+            <br /><br />
+            - 1 Switch de red con suficientes puertos Ethernet.
+            <br /><br />
+            - 1 Router inalámbrico con puertos Ethernet.<br /><br />
+            - Cables de red directos (RJ-45).<br /><br />
+            - Un servidor (una de las 6 computadoras configurada con un servidor
+            web, por ejemplo, utilizando XAMPP como en la práctica anterior).<br /><br />
+          </p>
+          <br />
+
+          <p id="desarrollo"></p>
+          <h2 class="fw-bolder mb-4 mt-5 fs-5">- Desarrollo -</h2>
+          <p class="fs-6 mb-4">
+            1. Identificación y Caracterización de Switch y Router:<br />
+            - Investigar y documentar las principales funciones y
+            características de un switch (operación en Capa 2, tabla de
+            direcciones MAC, reenvío por MAC, dominio de broadcast). <br />
+            - Investigar y documentar las principales funciones y
+            características de un router (operación en Capa 3, tabla de
+            enrutamiento, reenvío por IP, interconexión de redes, NAT/DHCP).
+            <br /><br />
+
+            2. Elaboración de Red con Switchl:<br />
+            -Conectar el switch a la fuente de alimentación. <br />
+            - Conectar un mínimo de tres computadoras al switch utilizando
+            cables de red directos.<br />
+            - Conectar la computadora configurada como servidor web al mismo
+            switch con un cable de red directo.<br />
+            - Configurar todas las computadoras (incluyendo el servidor) para
+            obtener direcciones IP automáticamente (DHCP).
+            <br /><br />
+
+            3. Comprobación:<br />
+            - Utilizar el comando "ping" desde una computadora hacia la
+            dirección IP de otra computadora en la misma red para verificar la
+            conectividad. <br />
+            - Abrir un navegador web en una de las computadoras cliente e
+            intentar acceder a la página web del servidor utilizando su
+            dirección IP.
+            <br /><br />
+
+            4. Elaboración de Red con Router:<br />
+            - Conectar el router a la fuente de alimentación y a una de las
+            computadoras mediante un cable de red directo para su configuración
+            inicial (si es necesario). <br />
+            - Configurar el router para habilitar el servidor DHCP (asignación
+            automática de IP).<br />
+            - Conectar un mínimo de dos computadoras al router mediante cables
+            de red directos (conexión cableada). <br />
+            - Conectar una computadora al router mediante conexión inalámbrica
+            (Wi-Fi), ingresando la contraseña de la red Wi-Fi del router.<br />
+            - Conectar la computadora configurada como servidor web al router
+            mediante un cable de red directo o inalámbricamente. <br />
+            - Configurar todas las computadoras (incluyendo el servidor) para
+            obtener direcciones IP automáticamente (DHCP).
+            <br /><br />
+
+            5. Comprobación:<br />
+            - Utilizar el comando "ping" desde una computadora (cableada o
+            inalámbrica) hacia la dirección IP de otra computadora en la misma
+            red para verificar la conectividad. <br />
+            - Abrir un navegador web en una de las computadoras cliente e
+            intentar acceder a la página web del servidor utilizando su
+            dirección IP.
+            <br /><br />
+
+            6. Unión de Ambas Redes:<br />
+            - Conectar el switch a uno de los puertos LAN del router utilizando
+            un cable de red directo. <br />
+            - Asegurarse de que ambas redes sigan utilizando la asignación
+            automática de IP (DHCP del router debería ser suficiente para los
+            dispositivos conectados al switch a través del router). <br />
+            - Desde una computadora conectada al switch, intentar acceder a un
+            recurso compartido (por ejemplo, una carpeta compartida) en una
+            computadora conectada directamente al router (o viceversa). Esto
+            puede requerir la configuración de recursos compartidos en los
+            sistemas operativos de las computadoras.
+            <br /><br />
+
+            7. Comprobación:<br />
+            - Verificar la conectividad entre dispositivos de ambas redes
+            utilizando el comando `ping` (desde una computadora en la red del
+            switch hacia una en la red del router, y viceversa). <br />
+            - Documentar si el intercambio de archivos entre las redes fue
+            exitoso y los pasos necesarios para lograrlo.
+            <br /><br />
+          </p>
+          <br /><br /><br /><br />
+
+          <p id="|cion"></p>
+          <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Simulación</h1>
+          <p class="fs-6 mb-4">
+            Esta práctica se centra principalmente en la implementación física
+            de redes. Sin embargo, se podría utilizar un software de simulación
+            de redes como Cisco Packet Tracer para modelar y probar
+            conceptualmente las configuraciones antes de la implementación real.
+          </p>
+          <br /><br />
+
+          <p id="|cion"></p>
+          <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Diseño</h1>
+          <p class="fs-6 mb-4">
+            El diseño de la práctica consta de dos redes LAN separadas: una con
+            un switch conectando computadoras y un servidor, y otra con un
+            router conectando dispositivos cableados e inalámbricos, también con
+            un servidor. Finalmente, se unen ambas redes conectando el switch a
+            un puerto LAN del router.
+          </p>
+          <br /><br />
+
+          <p id="|cion"></p>
+          <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Construcción</h1>
+          <p class="fs-6 mb-4">
+            La construcción implica la conexión física de los dispositivos
+            (computadoras, switch, router) mediante cables de red. También
+            incluye la configuración lógica de las direcciones IP (DHCP) y la
+            verificación de la conectividad mediante comandos y acceso a
+            servicios.
+          </p>
+          <br /><br />
+
+          <p id="resultados"></p>
+          <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resultados -</h2>
+          <p class="fs-6 mb-4">
+            Los resultados obtenidos permitirán observar el funcionamiento de
+            las redes implementadas con switches y routers, así como la
+            interconexión de ambas. Se registrarán los siguientes
+            comportamientos: <br />
+            - Identificación de las funciones clave del switch y el router.
+            <br />
+            - Conectividad (éxito o fallo del "ping") entre las computadoras en
+            la red del switch. <br />
+            - Acceso (éxito o fallo) al servidor web desde las computadoras en
+            la red del switch. <br />
+            - Conectividad (éxito o fallo del "ping") entre las computadoras
+            (cableadas e inalámbricas) en la red del router.<br />
+            - Acceso (éxito o fallo) al servidor web desde las computadoras en
+            la red del router.<br />
+            - Conectividad (éxito o fallo del "ping") entre computadoras de
+            ambas redes después de la unión. <br />
+            - Éxito o fallo en el intercambio de archivos entre computadoras de
+            ambas redes y los pasos realizados.
+          </p>
+          <br />
+          <figure class="mb-4" align="center">
+            <h3>Panel de control</h3>
+            <br />
+            <img
+              class="img-fluid rounded"
+              width="80%"
+              src="img/a.png"
+              alt="..."
+            />
+          </figure>
+          <br />
+          <figure class="mb-4" align="center">
+            <br />
+            <img
+              class="img-fluid rounded"
+              width="80%"
+              src="img/b.png"
+              alt="..."
+            />
+          </figure>
+          <br />
+          <figure class="mb-4" align="center">
+            <br />
+            <img
+              class="img-fluid rounded"
+              width="80%"
+              src="img/c.png"
+              alt="..."
+            />
+          </figure>
+          <br />
+          <figure class="mb-4" align="center">
+            <br />
+            <img
+              class="img-fluid rounded"
+              width="80%"
+              src="img/e.png"
+              alt="..."
+            />
+          </figure>
+          <br />
+          <figure class="mb-4" align="center">
+            <br />
+            <img
+              class="img-fluid rounded"
+              width="80%"
+              src="img/f.png"
+              alt="..."
+            />
+          </figure>
+          <br />
+          <figure class="mb-4" align="center">
+            <br />
+            <img
+              class="img-fluid rounded"
+              width="80%"
+              src="img/g.png"
+              alt="..."
+            />
+          </figure>
+          <br />
+          <br /><br />
+
+          <p id="conclusiones"></p>
+          <h2 class="fw-bolder mb-4 mt-5 fs-5">- Conclusiones -</h2>
+          <p class="fs-6 mb-4">
+            Con esta práctica, se ha logrado comprender la diferencia operativa
+            entre un switch y un router en la creación de redes LAN. Se verificó
+            cómo un switch facilita la comunicación dentro de un mismo segmento
+            de red basado en direcciones MAC, mientras que un router permite la
+            interconexión de diferentes redes y gestiona el tráfico basado en
+            direcciones IP. La unión de ambas redes demostró la capacidad de un
+            router para interconectar segmentos de red y permitir la
+            comunicación entre dispositivos en diferentes dominios de red. Este
+            conocimiento es fundamental para el diseño e implementación de redes
+            más complejas.
+          </p>
+
+          <p id="referencias"></p>
+          <h2 class="fw-bolder mb-4 mt-5 fs-5">- Referencias -</h2>
+          <p class="fs-6 mb-4">
+            Apache Friends. (s.f.). XAMPP. Recuperado de
+            https://www.apachefriends.org/es/index.html
+          </p>
+          <p class="fs-6 mb-4">
+            Transmisión de datos y redes de comunicaciones (4a ed.).
+            McGraw-Hill.
+          </p>
+          <p class="fs-6 mb-4">
+            Gokhale, P., Bhat, O., & Bhat, S. (2018). Introduction to IOT.
+            International Advanced Research Journal in Science, Engineering and
+            Technology, 5(1), 41-44.
+          </p>
+
+          <p id="descargables"></p>
+          <h2 class="fw-bolder mb-4 mt-5 fs-5">- Descargables -</h2>
+          <p class="fs-6 mb-4">
+            Descargar documento PDF:
+            <a href="files/Documento.pdf">documento.pdf</a>
+          </p>
+          <p class="fs-6 mb-4">
+            Descargar codigo Arduino:
+            <a href="files/Ejemplo_arduino_bluetooth.ino">codigo.ino</a>
+          </p>
+          <p class="fs-6 mb-4">
+            Descargar Archivo 3d .STL:
+            <a href="files/Pieza_3D.STL">pieza.stl</a>
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer-->
+    <footer class="bg-dark py-4 mt-auto">
+      <div class="container px-5">
+        <div
+          class="row align-items-center justify-content-between flex-column flex-sm-row"
+        >
+          <div class="col-auto">
+            <div class="small m-0 text-white">
+              Copyright &copy; Ingenierias-iberopuebla.mx 2023
+            </div>
+          </div>
+          <div class="col-auto">
+            <a class="link-light small" href="#!">Privacy</a>
+            <span class="text-white mx-1">&middot;</span>
+            <a class="link-light small" href="#!">Terms</a>
+            <span class="text-white mx-1">&middot;</span>
+            <a class="link-light small" href="#!">Contact</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
